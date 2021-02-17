@@ -4,9 +4,11 @@ import java.util.Scanner;
 public class sıralama {
     public static void main(String[] args) {
 		/*
+		
 		1)Kullanıcıdan tamsayı dizisi girmesini isteyin
 		2)sort method kullanarak diziyi artan azalan olarak yazdırın.
-		 */
+		
+		*/
 
 
         Scanner scan=new Scanner(System.in);
@@ -27,11 +29,13 @@ public class sıralama {
         Arrays.sort(arr);
 
         //artan sıra
+	    
         for(int i= 0; i < uzunluk ; i++) {
             System.out.print(arr[i] + "  ");
         }
 
         //azalan sıra
+	    
         for(int i= 0; i < uzunluk ; i++) {
             System.out.print(arr[uzunluk-1-i] + "  ");
 
